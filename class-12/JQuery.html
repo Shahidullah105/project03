@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JQuery Class</title>
+    <script src="jQuery-3.7.min.js"></script>
+</head>
+<style>
+    h1{
+        text-align: center;
+        padding-top: 400px;
+    }
+</style>
+<body>
+    
+    
+    
+    <h1 class="heading">Lorem ipsum dolor sit amet. 2</h1>
+    
+        <!-- 
+    <button class="hide">Hide</button>
+    <button class="show">show</button>
+                
+        -->
+        <button>toogle</button>   
+
+    <script>
+        $ (document) .ready(function () {
+            $("button") .click(function (){
+                $(".heading") .toggle();
+            });
+            
+            
+        });
+
+    
+    </script>
+
+
+</body>
+</html>

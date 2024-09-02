@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{margin:0px; background-color:#999;
+} 
+.layout
+{width:930px; height:850px; margin:0px auto; background-color:#639;
+}
+.header
+{width:900px; height:150px; float:left; margin:15px; background-color:#0C3; text-align:center; line-height:200px; color:#FFF;
+}
+
+.menu
+{width:900px; height:450px; float:left; margin:15px; background-color:#F3C;
+}
+.footer
+{width:900px; height:100px; float:left; margin:15px; background-color:#3CC; text-align:center; line-height:100px; font-size:36px; font-family:"Times New Roman"; color:#FFF;
+}
+.box
+{width:200px; height:200px; float:left; background-color:#F3C; margin:15px; border-radius:90px 0px; text-align:center; line-height:100px; font-size:24px; color:#60C; transform:rotate(-45 deg);
+}

@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.aa
+{width:200px; height:200px; float:left; background-color:#C0C; margin:15px; border-radius:90px 0px; box-shadow: 20px 10px 20px; color:#999; transform:skewX(30deg) 
+}
+
+.bb
+{width:200px; height:200px; float:left; background-color:#C0C; margin:25px; border-radius:90px 0px; box-shadow: 20px 10px 20px; color:#999; transform: skewY(20deg); 
+}
+
+.cc
+{width:200px; height:200px; float:left; background-color:#C0C; margin:35px; border-radius:90px 0px 90px 0px; box-shadow: 20px 10px 20px; color:#999; text-align:center; line-height:100px; font-size:18px; color:#FFF; transform:rotate(-60deg) 
+}
+.dd
+{width:200px; height:200px; float:left; background-color:#C0C; margin:35px; border-radius:90px 0px 90px 0px; box-shadow: 20px 10px 20px; color:#999; text-align:center; line-height:100px; font-size:18px; color:#FFF; transform:rotate(-40deg); transition:cubic-bezier(x1,y1,x2,y2); 
+}

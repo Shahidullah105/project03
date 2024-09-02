@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.aa
+{width:200px; height:200px; float:left; margin:15px; background-color:#309; border-radius:20px;
+}
+.bb
+{width:200px; height:200px; float:left; margin:15px; background-color:#33C; border-radius:90px;
+}
+.cc
+{width:200px; height:200px; float:left; margin:15px; background-color:#0C3; border-radius:60px;
+}
+.dd
+{width:200px; height:200px; float:left; margin:15px; background-color:#633; border-radius:30px;
+}
+.ee
+{width:200px; height:200px; float:left; margin:15px; background-color:#F39; border-radius:0px 90px;
+}
+.ff
+{width:200px; height:200px; float:left; margin:15px; background-color:#C3C; border-radius:90px 0px;
+}
+.gg
+{width:200px; height:200px; float:left; margin:15px; background-color:#FC3; border-radius:90px 0px 90px 0px; box-shadow: 20px 10px 20px; color:#999;
+}

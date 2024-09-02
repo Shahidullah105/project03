@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{margin:0px; background-color:#999;}
+.layout
+{width:920px; height:850px; margin:0px auto; background-color:#609;
+}
+.header
+{width:900px; height:150px; float:left; margin:10px; background-color:#0C3;
+}
+.menu
+{width:900px; height:450px; float:left; margin:0px 10px; background-color:#63F;}
+.slider
+{width:900px; height:200px; float:left; background-color:#696; margin:10px 10px;
+}
+.box
+{width:250px; height:150px; float:left; background-color:#309; margin:10px; 
+}
+.box2
+{width:250px; height:150px; float:left; background-color:#F3C; margin:10px; 
+}
+.box3
+{width:250px; height:150px; float:left; background-color:#FF3; margin:10px; 
+}

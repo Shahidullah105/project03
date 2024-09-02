@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.box1
+{width:800px; height:800px; float:left; margin:100px; background-color:#390;
+}
+.box2
+{width:600px; height:600px; float:left; margin:100px; background-color:#F30;
+}
+.box3
+{width:400px; height:400px; float:left; margin:100px; background-color:#30F;
+}
+.box4
+{width:200px; height:200px; float:left; margin:100px; background-color:#FF3;
+}

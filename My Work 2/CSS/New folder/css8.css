@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.box1
+{width:800px; height:800px; float:left; margin:100px; background-color:#0C0;
+}
+.box2
+{width:600px; height:600px; float:left; margin:100px; background-color:#90C;
+}
+.box3
+{width:400px; height:400px; float:left; margin:100px; background-color:#F09;
+}
+.box4
+{width:100px; height:100px; float:right; margin:50px; background-color:#930;
+}
+.box5
+{width:200px; height:200px; float:left; margin:100px; background-color:#C30;
+}
+

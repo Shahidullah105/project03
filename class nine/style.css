@@ -1,0 +1,166 @@
+.header-area {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 10px;
+    display: block;
+}
+
+.button {
+    padding: 8px 10px;
+}
+.slidder-area{
+    background:url(..//images.03/slider-bg.jpg);
+    background-position: center;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slidder-wrapper {
+    padding: 138px 0;
+    text-align: center;
+}
+
+.slidder-wrapper h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.blog-area  , .service-area {
+    padding: 60px 0;
+}
+.section-titls , .section-title {
+    width: 70%;
+    margin:  0 auto;
+    text-align: center;
+}
+
+.section-title h1 , .section-title h1{
+    font-size: 50px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.section-title p  , .section-title p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.all-blogs , .all-services {
+    display: flex;
+    justify-content: space-between;
+}
+.single-blog , .single-service {
+    width: 23%;
+}
+.single-blog img , .single-service img {
+    width: 100%;
+    border: 1px solid #333;
+    padding: 4px;
+}
+
+.about-area {
+    background-color: #f1f1f1;
+    padding: 100px 0;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-image {
+    width: 45%;
+}
+
+.about-content {
+    width: 45%;
+}
+
+.about-content h1 {
+    margin: 0;
+}
+
+.about-content p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.footer-area{
+    background-color: #f3f3f3;
+    height: 70px;
+}
+.footer-area p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.contact-area{
+    background: url('..//images.03/contact.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.contact-wrapper input {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.contact-wrapper form {
+    margin: 0 auto;
+    width: 465px;
+    position: relative;
+    z-index: 9;
+    padding: 30px;
+    text-align: center;
+}
+.contact-wrapper {
+    width: 100%;
+    margin: 0;
+}
+.contact-wrapper input{
+    background: none;
+    border: 2px solid #ddd;
+}

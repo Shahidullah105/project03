@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-left .col-12{
+    position: relative;
+    
+}
+.contact-left .col-12 i{
+    position: absolute;
+    background-color: #fdf1ec;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact-left, .contact-right{
+    box-shadow: 0 0 15px 0 gray;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    min-height: 710px;
+}
+
+.newsletter{
+    padding: 60px 0;
+}
+
+.newsletter form{
+    width: 50%;
+}
+
+.newsletter button{
+    background-color: orangered;
+    padding: 0 20px;
+    color: white;
+    margin-left: 10px;
+    border: none;
+}
+
+.footer-upper ul li{
+    list-style: none;
+}
+.footer-upper ul{
+    padding-inline-start: 0;
+}
+
+.footer-upper i{
+    color:red;
+}
+.footer-upper .social i{
+    color: white;
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.footer .col-md-6{
+    display: flex;
+    justify-content: center;
+    color: orangered;
+}
+

@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/*-------=====service*/
+
+
+.service{
+    background-color: #fdf7f4;
+}
+.common-heading h2{
+    font-size: 24px;
+    color: #c2b271;
+    text-align: center;
+}
+.common-heading p{
+    font-size: 32px;
+    color: #4E4069;
+    text-align: center;
+}
+.orange-underline{
+    width: 90px;
+    height: 2px;
+    background-color: orangered;
+    margin: 0 auto;
+}
+
+.service-content i{
+    color: orangered;
+    font-size: 50px;
+}
+
+.service-content .card{
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px 3px gray;
+    transition: 0.7s ease-in-out;
+}
+.service-content .card:hover{
+    border-bottom: 3px solid orangered;
+    transform: translateY(-5px);
+}

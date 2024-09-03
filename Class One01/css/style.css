@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: inline-block;
+    margin-left: 150px;
+}
+
+ul{
+    display: inline-block;
+    margin-left:250px;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+button{
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+header{
+    background-color:rgba(128, 128, 128, 0.663);
+    padding: 15px 0;
+}

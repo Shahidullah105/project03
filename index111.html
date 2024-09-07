@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 08</title>
+</head>
+<body>
+    <script>
+        function one(inputtext){
+            var textone = /^[0-9]+$/;
+            if (inputtext.value.match(textone)){
+                alert("right");
+            }else{
+                alert("false");
+            }
+        } 
+
+
+    </script>
+    <form name="form1">
+        <input type="text" name="text1">
+        <input type="submit" name="submit" value="submit" onclick="one(document.form1.text1)">
+
+
+    </form>
+</body>
+</html>

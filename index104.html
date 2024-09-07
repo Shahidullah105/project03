@@ -6,21 +6,21 @@
     <title>class eight</title>
 </head>
 <body>
-    
-    <script>
-        function valid(){
+      <script>
+         function valid(){
             var a = document.forms["formname"]["fname"].value;
-            if (a == ""){
-                alert("name must be filled out");
+            if(a == ""){
+                alert("name must be filled");
                 return false;
             }
-        }
-        
-    </script>
-    <form name="formname">Name:
-    <input type="text" name="fname">
-    <input type="submit" value="submit" onclick="valid()">     
-    </form>
+         }
+      
+      </script>
 
+      <form name="formname">
+
+        Name:<input type="text" name="fname">
+        <input type="submit" value="submit" onclick="valid()"> 
+      </form>
 </body>
 </html>

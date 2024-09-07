@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class eight</title>
+</head>
+<body>
+
+    
+    <script>
+
+        function one(inputtext){
+            var textone= /^[0-9]+$/;
+            if (inputtext.value.match(textone)){
+                alert("right");
+            }else{
+                alert("false");
+            }
+        }
+    </script>
+
+<form name="example">
+    <input type="text" name="calculator">
+    <input type="button" name="b1" value="calculator" onclick="cal()">
+    Answer:<input type="text" name="Answer">
+
+</form>
+</body>
+</html>

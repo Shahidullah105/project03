@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class eight</title>
+</head>
+<body>
+      <script>
+         function valid(){
+            var name = document.formname.name.value;
+            var password = document.formname.password.value;
+            if(name == null || name==""){
+                alert("name can't be blank");
+            }else if(password.length<6){
+                alert("password must be at least six characters ")
+            }
+         }
+      
+      </script>
+
+      <form name="formname" onsubmit="valid()">
+
+        Name:<input type="text" name="name">
+        password:<input type="password" name="password">
+        <input type="submit" value="submit"> 
+      </form>
+</body>
+</html>
